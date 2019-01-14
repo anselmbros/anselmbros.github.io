@@ -1,21 +1,6 @@
 <div class="box card--domain is-inline-block">
     <div class="content">
-        <div class="level">
-            <div class="level-left">
-                <div class="level-item">
-                    <strong>{{ include.domain.name }}</strong> <br />
-                </div>
-            </div>
-            {% if include.domain.buy %}
-            <div class="level-right">
-                <div class="level-item">
-                    <div class="tag is-success">
-                        Sale
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-        </div>
+        <strong>{{ include.domain.name }}</strong> <br />
         <div class="card__url--domain">
             <a href="{{ include.domain.url }}">{{ include.domain.url }}</a>
         </div>
@@ -23,6 +8,9 @@
             {% for tag in include.domain.tags %}
             <div class="tag">{{ tag }}</div>
             {% endfor %}
+            {% if include.domain.buy %}
+            <div class="tag is-danger">Sale</div>
+            {% endif %}
         </div>
     </div>
 </div>
