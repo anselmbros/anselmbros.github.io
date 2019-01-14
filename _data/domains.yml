@@ -1,48 +1,48 @@
 - name: Be Like Man
-  url: http://belikeman.com
+  url: belikeman.com
   tags: [.com, e-commerce, men]
 - name: Be Like Woman
-  url: http://belikewoman.com
+  url: belikewoman.com
   tags: [.com, e-commerce, women]
 - name: Be Like God
-  url: http://belikegod.com
+  url: belikegod.com
   tags: [.com, marketing, commercial]
   buy: true
 - name: Be Like Techie
-  url: http://beliketechie.com
+  url: beliketechie.com
   tags: [.com, blogging]
   buy: true
 - name: 24x7 Centre
-  url: http://24x7centre.com
+  url: 24x7centre.com
   tags: [.com, support, commercial]
 - name: Available 24x7
-  url: http://available24x7.com
+  url: available24x7.com
   tags: [.com, availablity, commercial]
 - name: Protect 24x7
-  url: http://protect24x7.com
+  url: protect24x7.com
   tags: [.com, security, commercial]
   buy: true
 - name: Check 24x7
-  url: http://check24x7.com
+  url: check24x7.com
   tags: [.com, availablity, commercial]
   buy: true
 - name: Test 24x7
-  url: http://test24x7.com
+  url: test24x7.com
   tags: [.com, security, commercial]
   buy: true
 - name: Find Me Rooms
-  url: http://findmerooms.com
+  url: findmerooms.com
   tags: [.com, hotel, commercial]
 - name: What Is My Need
-  url: http://whatismyneed.com
+  url: whatismyneed.com
   tags: [.com, marketing]
 - name: Lulldom
-  url: http://lulldom.com
+  url: lulldom.com
   tags: [.com, blogging, marketing]
 - name: Devlog
-  url: http://devlog.in
+  url: devlog.in
   tags: [developer, blogging, social]
 - name: Journey Guru
-  url: http://journeyguru.in
+  url: journeyguru.in
   tags: [travel, blogging]
   buy: true
