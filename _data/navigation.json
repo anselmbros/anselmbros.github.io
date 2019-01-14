@@ -1,0 +1,19 @@
+{
+  "pages": [{
+    "name": "Home",
+    "url": "/"
+  }],
+  "social": [{
+    "name": "Twitter",
+    "url": "https://twitter.com/anselmandanselm",
+    "icon": "twitter"
+  }, {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/AnselmAndAnselm",
+    "icon": "facebook"
+  }, {
+    "name": "Instagram",
+    "url": "https://instagram.com",
+    "icon": "instagram"
+  }]
+}

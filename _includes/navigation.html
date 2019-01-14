@@ -1,0 +1,41 @@
+<nav class="navbar is-fixed-top">
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <figure class="image navbar__brand has-text-centered">
+        {{ site.data.icons["brand"] }}
+      </figure>
+    </a>
+    <span class="navbar-burger burger" data-target="navbarMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </div>
+  <div id="navbarMenu" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="buttons">
+        {% for item in site.data.navigation.social %}
+        <div class="navbar-item is-paddingless">
+          <a class="button is-white" href="{{ item.url }}">
+            <figure class="image is-24x24">
+              {{ site.data.icons[item.icon] }}
+            </figure>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a class="button is-white" href="{{ site.blog-url }}">
+          Blog
+        </a>
+      </div>
+      <span class="navbar-item">
+        <a class="button is-primary" href="mailto://{{ site.mailid }}">
+          Contact
+        </a>
+      </span>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,26 @@
+<div class="card card--author">
+    <div class="card-image has-text-centered">
+        <figure class="image is-128x128 is-inline-block card__image--author">
+            <img class="is-rounded" src="{{ include.author.img-url }}" alt="{{ include.author.name }}">
+        </figure>
+    </div>
+    <div class="card-content has-text-centered">
+        <p class="title is-4">{{ include.author.name }}</p>
+        <p class="subtitle is-6">{{ include.author.position }} <br>@ <a href="{{ include.author.company-url }}">{{
+                include.author.company }}</a> </p>
+
+        <div class="content">
+            {{ include.author.bio | markdownify }}
+            <br>
+            <div class="is-flex card__social">
+                {% for socialitem in include.author.social %}
+                <div class="image is-24x24">
+                    <a href="{{ socialitem.url }}">
+                        {{ site.data.icons[socialitem.icon] }}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

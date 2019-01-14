@@ -1,0 +1,91 @@
+---
+
+--- 
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+// Set your brand colors
+$blue: #285495;
+$orange: #FF751A;
+$green: #13D8B1;
+$lightgrey: #FCFCFC;
+
+// Update Bulma's global variables
+$family-sans-serif: "Source Sans Pro", sans-serif;
+$grey-dark: $blue;
+$grey-darker: $blue;
+$grey-light: $lightgrey;
+$grey-lighter: $lightgrey;
+$primary: $blue;
+$link: $orange;
+$link-invert: $green;
+$text: $blue;
+$text-light: $lightgrey;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $lightgrey;
+
+// Import only what you need from Bulma
+@import "bulma.sass";
+
+.navbar__brand {
+    width: 9rem;
+    height: 2rem;
+}
+
+.card--author {
+    transition: box-shadow .3s;
+    margin: $gap/4;
+
+    &:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
+    }
+}
+
+.card--domain {
+    transition: box-shadow .3s;
+    margin: 0 $gap/4 0 0;
+
+    &:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
+    }
+}
+
+.card__image--author {
+    margin: 1.5rem 0 0 0;
+}
+
+.card__social {
+    padding: 1rem 0 0 0;
+    justify-content: space-evenly;
+}
+
+.card__url--domain {
+    margin: 0 0 0.5rem 0;
+}
+
+.catologue--domain {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.message--domain {
+    margin: 2rem 0 0 0;
+}
+
+.item--skill {
+    margin: 3rem 2rem;
+}
+
+.item__icon--skill {
+    margin: 0 0 2rem 0;
+}
+
+.section__title {
+    margin: 0 0 3rem 0;
+}

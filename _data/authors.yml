@@ -1,0 +1,26 @@
+- name: Merbin J Anselm
+  img-url: https://bulma.io/images/placeholders/256x256.png
+  position: Associate Developer
+  company: SAP Labs India
+  company-url: https://www.sap.com
+  bio: The *Technical* Guy who spends time coding, designing and watching TV shows. Knows UX/UI designing as well as fullstack and mobile development
+  social:
+    - name: Twitter
+      url: https://twitter.com/merbinjanselm
+      icon: twitter
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/merbinjanselm
+      icon: linkedin
+- name: Rebin J Anselm
+  img-url: https://bulma.io/images/placeholders/256x256.png
+  position: Student
+  company: Loyola Institute of Business Administration
+  company-url: https://liba.edu
+  bio: The *Non-Technical* Guy who has photography and music as hobby. Knows Photo & Video editing and is an avid Business Strategist
+  social:
+    - name: Twitter
+      url: https://twitter.com/rebinjanselm
+      icon: twitter
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/rebin-j-anselm/
+      icon: linkedin

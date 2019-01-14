@@ -1,0 +1,12 @@
+<section class="section">
+    <div class="container has-text-centered">
+        <h1 class="title">What We Do</h1>
+        <div class="columns is-multiline">
+            {% for skill in site.data.skills %}
+            <div class="column is-3 item--skill">
+                {% include item-skill.html skill=skill %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

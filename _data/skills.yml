@@ -1,0 +1,18 @@
+- name: Brand Identity
+  icon: happy
+- name: Mobile Development
+  icon: android
+- name: Website Development
+  icon: desktop
+- name: Full Stack Applications
+  icon: layers
+- name: UX/UI Makeover
+  icon: laptop
+- name: Photo Editing
+  icon: images
+- name: Video Editing
+  icon: videocam
+- name: Content Design
+  icon: brush
+- name: Photography
+  icon: camera

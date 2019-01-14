@@ -1,0 +1,17 @@
+<div class="section">
+    <div class="container">
+        <div class="has-text-centered section__title">
+            <h1 class="title">Domains We Own</h1>
+        </div>
+        <div class="catologue--domain">
+            {% for domain in site.data.domains %}
+            {% include card-domain.html domain=domain %}
+            {% endfor %}
+        </div>
+        <article class="message message--domain">
+            <div class="message-body">
+                If you are interested in buying any of the above domains, feel free to <a href="mailto://{{ site.mailid }}">contact us</a> any time! 😃
+            </div>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<section class="section">
+    <div class="container">
+        <div class="has-text-centered">
+            <h1 class="title is-spaced section__title">Who Are We</h1>
+        </div>
+        <div class="content">
+            <div class="columns is-centered">
+                {% for siteauthor in site.data.authors %}
+                <div class="column is-one-third">
+                    {% include card-author.html author=siteauthor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
