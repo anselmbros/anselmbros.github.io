@@ -23,8 +23,8 @@ $link: $orange;
 $link-invert: $green;
 $text: $blue;
 $text-light: $lightgrey;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $lightgrey;
@@ -47,6 +47,15 @@ $body-background-color: $lightgrey;
 }
 
 .card--domain {
+    transition: box-shadow .3s;
+    margin: 0 $gap/4 0 0;
+
+    &:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
+    }
+}
+
+.card--skill {
     transition: box-shadow .3s;
     margin: 0 $gap/4 0 0;
 
