@@ -1,5 +1,5 @@
 - name: Merbin J Anselm
-  img-url: https://bulma.io/images/placeholders/256x256.png
+  img-url: /assets/images/profile-merbin.jpg
   position: Associate Developer
   company: SAP Labs India
   company-url: https://www.sap.com
@@ -12,7 +12,7 @@
       url: https://www.linkedin.com/in/merbinjanselm
       icon: linkedin
 - name: Rebin J Anselm
-  img-url: https://bulma.io/images/placeholders/256x256.png
+  img-url: /assets/images/profile-rebin.jpg
   position: Student
   company: Loyola Institute of Business Administration
   company-url: https://liba.edu
