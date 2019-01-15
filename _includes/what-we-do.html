@@ -3,7 +3,7 @@
         <h1 class="title">What We Do</h1>
         <div class="columns is-multiline is-centered">
             {% for skill in site.data.skills %}
-            <div class="column is-3 item--skill card--skill">
+            <div class="column is-3 item--skill has-text-centered">
                 {% include item-skill.html skill=skill %}
             </div>
             {% endfor %}
