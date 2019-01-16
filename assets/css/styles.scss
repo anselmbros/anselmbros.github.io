@@ -23,14 +23,35 @@ $link: $orange;
 $link-invert: $green;
 $text: $blue;
 $text-light: $lightgrey;
-// $widescreen-enabled: false;
-// $fullhd-enabled: false;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $lightgrey;
 
 // Import only what you need from Bulma
-@import "bulma.sass";
+@import "bulma/utilities/_all.sass";
+@import "bulma/base/_all.sass";
+
+// Elements
+@import "bulma/elements/box.sass";
+@import "bulma/elements/button.sass";
+@import "bulma/elements/container.sass";
+@import "bulma/elements/content.sass";
+@import "bulma/elements/icon.sass";
+@import "bulma/elements/image.sass";
+@import "bulma/elements/other.sass";
+@import "bulma/elements/tag.sass";
+@import "bulma/elements/title.sass";
+
+// Components
+@import "bulma/components/card.sass";
+@import "bulma/components/level.sass";
+@import "bulma/components/message.sass";
+@import "bulma/components/navbar.sass";
+
+@import "bulma/grid/_all.sass";
+@import "bulma/layout/_all.sass";
 
 .navbar__brand {
     width: 9rem;
@@ -58,7 +79,8 @@ $body-background-color: $lightgrey;
 .card--skill {
     transition: box-shadow .3s;
     padding: 0.75*$gap;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
+    white-space: nowrap;
 
     &:hover {
         box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
@@ -88,12 +110,8 @@ $body-background-color: $lightgrey;
     margin: 2rem 0 0 0;
 }
 
-.item--skill {
-    margin: 0.5rem;
-}
-
 .item__icon--skill {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1.5rem 0;
 }
 
 .section__title {
