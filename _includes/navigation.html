@@ -1,6 +1,6 @@
 <nav class="navbar is-fixed-top">
   <div class="navbar-brand">
-    <a class="navbar-item">
+    <a class="navbar-item" href="{{ site.url }}">
       <figure class="image navbar__brand has-text-centered">
         {{ site.data.icons["brand"] }}
       </figure>
@@ -16,7 +16,7 @@
       <div class="buttons">
         {% for item in site.data.navigation.social %}
         <div class="navbar-item is-paddingless">
-          <a class="button is-white" href="{{ item.url }}">
+          <a class="button is-white" href="{{ item.url }}" target="_blank">
             <figure class="image is-24x24">
               {{ site.data.icons[item.icon] }}
             </figure>
@@ -27,12 +27,12 @@
     </div>
     <div class="navbar-end">
       <div class="navbar-item">
-        <a class="button is-white" href="{{ site.blog-url }}">
+        <a class="button is-white" href="{{ site.blog-url }}" target="_blank">
           Blog
         </a>
       </div>
       <span class="navbar-item">
-        <a class="button is-primary" href="mailto://{{ site.mailid }}">
+        <a class="button is-primary" href="mailto://{{ site.email }}">
           Contact
         </a>
       </span>

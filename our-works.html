@@ -1,0 +1,48 @@
+---
+layout: default
+title: Our Past Works
+---
+
+<div class="section">
+    <div class="container">
+        <h1 class="title is-2">{{ page.title }}</h1>
+
+        <!-- Apps -->
+        <h2 class="title is-3">{{ site.data.works.app.title }}</h2>
+
+        {% include section-works-app.html data=site.data.works.app.android %}
+
+        <!-- Videos -->
+        <h2 class="title is-3">{{ site.data.works.video.title }}</h2>
+
+        {% include section-works-video.html data=site.data.works.video.short-film %}
+
+        {% include section-works-video.html data=site.data.works.video.feature-video %}
+
+        <hr>
+
+        <!-- Design -->
+        <h2 class="title is-3">{{ site.data.works.design.title }}</h2>
+
+        <!-- Brochures -->
+        {% include section-works-design.html data=site.data.works.design.brochure is-brochure=true %}
+
+        <!-- Certificate -->
+        {% include section-works-design.html data=site.data.works.design.certificate %}
+
+        <!-- Flyer -->
+        {% include section-works-design.html data=site.data.works.design.flyer %}
+
+        <!-- Invitation -->
+        {% include section-works-design.html data=site.data.works.design.invitation %}
+
+        <!-- Logos -->
+        {% include section-works-design.html data=site.data.works.design.logo %}
+
+        <!-- Posters -->
+        {% include section-works-design.html data=site.data.works.design.poster %}
+
+        <!-- Others -->
+        {% include section-works-design.html data=site.data.works.design.others %}
+    </div>
+</div>

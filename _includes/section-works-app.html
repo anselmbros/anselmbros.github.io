@@ -1,0 +1,8 @@
+<h2 class="title is-4">{{ include.data.title }}</h2>
+<div class="columns is-multiline">
+    {% for app in include.data.apps %}
+    <div class="column is-4 has-text-centered">
+        {% include card-app.html data=app store=include.data.store %}
+    </div>
+    {% endfor %}
+</div>

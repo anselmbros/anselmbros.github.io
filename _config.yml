@@ -14,11 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Anselm & Anselm
-email: support@anselm.in
+email: hello@anselm.in
 description: Official Anselm & Anselm Website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anselm.in" # the base hostname & protocol for your site, e.g. http://example.com
-mailid: "hello@anselm.in"
 support-mailid: "support@anselm.in"
 blog-url: "https://medium.com/anselm-anselm"
 twitter_username: anselmandanselm

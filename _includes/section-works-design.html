@@ -1,0 +1,23 @@
+<h2 class="title is-4">{{ include.data.title }}</h2>
+{% if include.is-brochure %}
+{% for brochure in include.data.designs %}
+<h3 class="title is-6">{{ brochure.title }}</h3>
+<div class="columns is-multiline is-vcentered">
+    {% for design in brochure.pics %}
+    <div class="column is-4">
+        {% include card-work-design.html url=site.data.works.design.brochure.url pic=design
+        title="" %}
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}
+{% else %}
+<div class="columns is-multiline is-vcentered">
+    {% for design in include.data.designs %}
+    <div class="column is-4">
+        {% include card-work-design.html url=include.data.url pic=design.pic
+        title=design.title %}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

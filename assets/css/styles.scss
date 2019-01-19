@@ -46,11 +46,10 @@ $body-background-color: $lightgrey;
 
 // Components
 @import "bulma/components/card.sass";
-@import "bulma/components/level.sass";
 @import "bulma/components/message.sass";
 @import "bulma/components/navbar.sass";
 
-@import "bulma/grid/_all.sass";
+@import "bulma/grid/columns.sass";
 @import "bulma/layout/_all.sass";
 
 .navbar__brand {
@@ -61,6 +60,22 @@ $body-background-color: $lightgrey;
 .card--author {
     transition: box-shadow .3s;
     margin: $gap/4;
+
+    &:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
+    }
+}
+
+.card--app {
+    transition: box-shadow .3s;
+
+    &:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
+    }
+}
+
+.card--design {
+    transition: box-shadow .3s;
 
     &:hover {
         box-shadow: 0 0.5rem 1.5rem rgba(10,10,10,0.1), 0 0 0 1px rgba(10,10,10,0.1); 
@@ -89,6 +104,14 @@ $body-background-color: $lightgrey;
 
 .card__image--author {
     margin: 1.5rem 0 0 0;
+}
+
+.card__image--app {
+    margin: 1.5rem 0 0 0;
+}
+
+.card__caption--design {
+    padding: 1rem 0;
 }
 
 .card__social {

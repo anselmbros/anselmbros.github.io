@@ -1,0 +1,221 @@
+{
+    "app": {
+        "title": "Apps",
+        "android": {
+            "title": "Android",
+            "store": "Google Play",
+            "apps": [{
+                "title": "Torchie",
+                "icon-url": "/assets/images/torchie.png",
+                "description": "Turn on/off flashlight/LED/torch quickly on your phone instantly by holding both volume buttons/keys together. It works in screen on, lock screen and screen off (when enabled from settings). Works anytime! It makes you feel of having a handy conventional battery operated torch with physical hardware button access. it's tiny, small, free and runs silently as a service. No root required.",
+                "url": "https://play.google.com/store/apps/details?id=in.blogspot.anselmbros.torchie"
+            }]
+        }
+    },
+    "video": {
+        "title": "Videos",
+        "short-film": {
+            "title": "Short Films",
+            "videos": [{
+                "title": "The True Blood Friendship (TTBF)",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/mCk_S0jhVDQ"
+            }]
+        },
+        "feature-video": {
+            "title": "Feature Videos",
+            "videos": [{
+                "title": "Feel The Nature",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/eiKX4MQahqw"
+            }, {
+                "title": "Markets of Chennai | LIBA | F17 Batch",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/Lqv5429EuxQ"
+            }]
+        }
+    },
+    "design": {
+        "title": "Designs",
+        "brochure": {
+            "title": "Brochures",
+            "url": "assets/images/Brochures/",
+            "designs": [{
+                "title": "Libazaar 2017",
+                "pics": [
+                    "Libazaar-2017/P1.jpg",
+                    "Libazaar-2017/P2.jpg",
+                    "Libazaar-2017/P3.jpg",
+                    "Libazaar-2017/P4.jpg",
+                    "Libazaar-2017/P5.jpg"
+                ]
+            }, {
+                "title": "Libazaar 2018",
+                "pics": [
+                    "Libazaar-2018/P0.jpg",
+                    "Libazaar-2018/P1.jpg",
+                    "Libazaar-2018/P2.jpg",
+                    "Libazaar-2018/P3.jpg",
+                    "Libazaar-2018/P4.jpg",
+                    "Libazaar-2018/P5.jpg",
+                    "Libazaar-2018/P6.jpg",
+                    "Libazaar-2018/P7.jpg",
+                    "Libazaar-2018/P8.jpg"
+                ]
+            }]
+        },
+        "certificate": {
+            "title": "Certificates",
+            "url": "assets/images/Certificates/",
+            "designs": [{
+                "title": "Avalanche 2k16",
+                "pic": "Avalanche-2k16.jpg"
+            }, {
+                "title": "Libazaar 2017",
+                "pic": "Libazaar-2017.jpg"
+            }]
+        },
+        "flyer": {
+            "title": "Flyers",
+            "url": "assets/images/Flyers/",
+            "designs": [{
+                "title": "Anselm Design",
+                "pic": "Anselm-Design-2.jpg"
+            }, {
+                "title": "Anselm Web Development",
+                "pic": "Anselm-Web-Development.jpg"
+            }, {
+                "title": "Naturals",
+                "pic": "Naturals.jpg"
+            }, {
+                "title": "Something Fishy - The Story",
+                "pic": "Something-Fishy-Story.jpg"
+            }, {
+                "title": "IPL - Food Menu",
+                "pic": "IPL-Food-Menu.jpg"
+            }, {
+                "title": "Libazaar 2018",
+                "pic": "Libazaar-2018.jpg"
+            }, {
+                "title": "Something Fishy",
+                "pic": "Something-Fishy.jpg"
+            }, {
+                "title": "Libazaar 2017",
+                "pic": "Libazaar-2017.jpg"
+            }, {
+                "title": "Anselm Design",
+                "pic": "Anselm-Design-1.jpg"
+            }, {
+                "title": "Vote For All",
+                "pic": "Vote-For-All.jpg"
+            }, {
+                "title": "OOPS",
+                "pic": "OOPS.jpg"
+            }, {
+                "title": "Red Carpet",
+                "pic": "Red-Carpet.jpg"
+            }]
+        },
+        "invitation": {
+            "title": "Invitations",
+            "url": "assets/images/Invitations/",
+            "designs": [{
+                "title": "LIBA Alumni Meet 2018",
+                "pic": "LIBA-Alumni-Meet-2018.jpg"
+            }, {
+                "title": "LPL Auction",
+                "pic": "LPL-Auction.jpg"
+            }, {
+                "title": "Wedding",
+                "pic": "Wedding-1.jpg"
+            }, {
+                "title": "Wedding",
+                "pic": "Wedding-2.jpg"
+            }, {
+                "title": "Wedding",
+                "pic": "Wedding-3.jpg"
+            }, {
+                "title": "Pongal 2018",
+                "pic": "Pongal-2018.jpg"
+            }]
+        },
+        "logo": {
+            "title": "Logos",
+            "url": "assets/images/Logos/",
+            "designs": [{
+                "title": "BMI",
+                "pic": "BMI.jpg"
+            }, {
+                "title": "Medos",
+                "pic": "Medos.jpg"
+            }, {
+                "title": "DoDo Footwears",
+                "pic": "DoDo.jpg"
+            }, {
+                "title": "LIBA Awards",
+                "pic": "LIBA-Awards.jpg"
+            }, {
+                "title": "Zauber",
+                "pic": "Zauber.jpg"
+            }, {
+                "title": "Aeka - 1",
+                "pic": "Aeka-1.jpg"
+            }, {
+                "title": "Aeka - 2",
+                "pic": "Aeka-2.jpg"
+            }]
+        },
+        "poster": {
+            "title": "Posters",
+            "url": "assets/images/Posters/",
+            "designs": [{
+                "title": "Libazaar",
+                "pic": "Libazaar-Skyscraper.jpg"
+            }, {
+                "title": "Novations",
+                "pic": "Novations.jpg"
+            }, {
+                "title": "SMYC - Sales Day 2016",
+                "pic": "SMYC-Sales-day-2k16.jpg"
+            }, {
+                "title": "GG Sports",
+                "pic": "GG-Sports.jpg"
+            }, {
+                "title": "Libazaar - Drawing Competition",
+                "pic": "Libazaar-Drawing-Competition.jpg"
+            }, {
+                "title": "Nou Watches",
+                "pic": "NOU-Watches.jpg"
+            }, {
+                "title": "What The Food",
+                "pic": "Wtf.jpg"
+            }, {
+                "title": "Pongal",
+                "pic": "Pongal.jpg"
+            }, {
+                "title": "LIBA Alumni 2018",
+                "pic": "LIBA-Alumni-2018.jpg"
+            }]
+        },
+        "others": {
+            "title": "Miscellaneous",
+            "url": "assets/images/Others/",
+            "designs": [{
+                "title": "Infographics",
+                "pic": "Infographics.jpg"
+            }, {
+                "title": "Libazaar - Badge",
+                "pic": "Libazaar-Badge.jpg"
+            }, {
+                "title": "LIBA F17 - Jersey",
+                "pic": "F17-Jersey.jpg"
+            }, {
+                "title": "Life Is Beyond Awesome",
+                "pic": "Meme.jpg"
+            }, {
+                "title": "Cards",
+                "pic": "Cards.jpg"
+            }]
+        }
+    }
+}

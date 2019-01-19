@@ -1,0 +1,19 @@
+<div class="card card--app">
+        <div class="card-image has-text-centered">
+            <figure class="image is-128x128 is-inline-block card__image--app">
+                <img class="is-rounded" src="{{ app.icon-url }}" alt="{{ include.data.title }}">
+            </figure>
+        </div>
+        <div class="card-content has-text-centered">
+            <p class="title is-4">{{ include.data.title }}</p>
+            <div class="content">
+                {{ include.data.description | markdownify }}
+                <br>
+                <a href="{{ include.data.url }}">
+                    <figure class="image">
+                        <img src="/assets/images/google-play-badge.jpg" alt="Get it from {{ include.store }}">
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>

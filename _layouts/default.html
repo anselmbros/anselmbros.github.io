@@ -18,10 +18,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="/assets/css/styles.css">
 
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="/assets/js/main.js"></script>
-
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -31,17 +27,21 @@
 </head>
 
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   {% include navigation.html %}
 
   {{ content }}
 
   {% include footer.html %}
 
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- JS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="/assets/js/main.js"></script>
+  <script>
+    echo.init({
+      offset: 100,
+      throttle: 250,
+      unload: false
+    });
+  </script>
 </body>
 
 </html>
