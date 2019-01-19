@@ -12,8 +12,12 @@
     "url": "https://www.facebook.com/AnselmAndAnselm",
     "icon": "facebook"
   }, {
-    "name": "Instagram",
-    "url": "https://instagram.com",
-    "icon": "instagram"
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/UCvSqtybTbBkdnTbm7wq9dhg",
+    "icon": "youtube"
+  }, {
+    "name": "Google+",
+    "url": "https://plus.google.com/u/0/111724108433250220182",
+    "icon": "googleplus"
   }]
 }
