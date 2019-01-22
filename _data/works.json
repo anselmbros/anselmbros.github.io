@@ -17,21 +17,57 @@
         "short-film": {
             "title": "Short Films",
             "videos": [{
-                "title": "The True Blood Friendship (TTBF)",
+                "title": "LIBARATED 2K18 || Award Winning Short film || ANTHAATHI",
                 "type": "Youtube",
-                "url": "https://www.youtube.com/embed/mCk_S0jhVDQ"
+                "url": "https://www.youtube.com/embed/-toyb-tMaW8"
+            }, {
+                "title": "Loyola Institute of Business Administration || Libarated 2K17 || Short film || Vegam Thadai Illai",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/EK_xOH88HE8"
+            }, {
+                "title": "B13 The Mystery",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/lVUCeQsYU0c"
             }]
         },
         "feature-video": {
             "title": "Feature Videos",
             "videos": [{
-                "title": "Feel The Nature",
+                "title": "The Story of Torchie",
                 "type": "Youtube",
-                "url": "https://www.youtube.com/embed/eiKX4MQahqw"
+                "url": "https://www.youtube.com/embed/lUogmlnhVGU"
             }, {
-                "title": "Markets of Chennai | LIBA | F17 Batch",
+                "title": "Torchie - Turn on torch by holding volume keys | Feature Demo",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/IGrysksc6oQ"
+            }, {
+                "title": "Torchie | Open source | How-to-use",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/v3RLzxn8u8s"
+            }, {
+                "title": "Incredible India |Think Positive | GCE Tirunelveli EEE | AVALANCHE 2K16",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/9DISLJ38Gl0"
+            }, {
+                "title": "EMPORIS 2K16 | FX Engineering College | Civil Department | Symposium Promotion",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/Q9KyT-PcBi4"
+            }, {
+                "title": "Markets of Chennai | LIBA | F17 batch",
                 "type": "Youtube",
                 "url": "https://www.youtube.com/embed/Lqv5429EuxQ"
+            }, {
+                "title": "Egg Bread Roast - For bachelors",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/cPjaV4i1EdE"
+            }, {
+                "title": "Egg curry - Quick Tutorial in 2 minutes",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/tf1o4gCHIC4"
+            }, {
+                "title": "Carrot bean koottu - Quick Tutorial in 2 minutes",
+                "type": "Youtube",
+                "url": "https://www.youtube.com/embed/Qtfw7HFrmJo"
             }]
         }
     },
