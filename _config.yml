@@ -22,6 +22,8 @@ support-mailid: "support@anselm.in"
 blog-url: "https://medium.com/anselm-anselm"
 twitter_username: anselmandanselm
 
+google-analytics-id: UA-132863095-1
+
 # Build settings
 markdown: kramdown
 # theme: minima
